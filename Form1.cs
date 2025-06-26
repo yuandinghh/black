@@ -113,7 +113,7 @@ namespace black {
 			timer2.Enabled = false;
 			timer3.Interval = MinLEN;         //			musicplay mus = new musicplay();
 			sp = new SoundPlayer();
-			var System = new main { Location = new Point( 1, 1056 ) };
+			var System = new main { Location = new Point( -83, 1085 ) };  //定位显示倒计时
 			System.Show();
 
 		}

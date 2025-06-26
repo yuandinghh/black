@@ -1,17 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
 
 namespace black {
 	public partial class main : Form {
 		public main( ) {
 			InitializeComponent();
-		//	this.Location = new Point(-100, 340 );
 			this.BackColor = Color.White; this.TransparencyKey = Color.White;
 			label3.BringToFront(); label5.BringToFront();
 		}
