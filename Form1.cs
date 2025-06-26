@@ -13,7 +13,7 @@ using System.Runtime.CompilerServices;
 
 namespace black {
 	public partial class Form1 : Form {
-		#region   变量 。。。。。。。。
+		#region   变量 。。。。add
 		[DllImport( "user32.dll" )]
 		static extern void BlockInput(bool Block);
 		// 将以下字段设置为只读，因为它们在代码中未被重新分配  
