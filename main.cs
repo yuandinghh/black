@@ -8,6 +8,9 @@ namespace black {
 			InitializeComponent();
 			this.BackColor = Color.White; this.TransparencyKey = Color.White;
 			label3.BringToFront(); label5.BringToFront();
+			TimeSpan m_WorkTimeTemp = new TimeSpan( Convert.ToInt64( Environment.TickCount ) * 10000 );
+			label5.Text = m_WorkTimeTemp.Hours + ": " + m_WorkTimeTemp.Minutes;
+			label3.Text = A.deltime.ToString();
 		}
 
 		private void Timer1_Tick(object sender, EventArgs e) {
@@ -15,6 +18,8 @@ namespace black {
 			TimeSpan m_WorkTimeTemp = new TimeSpan( Convert.ToInt64( Environment.TickCount ) * 10000 );
 			label5.Text = m_WorkTimeTemp.Hours + ": " + m_WorkTimeTemp.Minutes;
 			label3.Text = A.deltime.ToString();
+			//当前窗口设置置顶
+			this.TopMost = true;  //设置窗口置顶
 			this.Refresh();  //窗口屏幕刷新
 		}
 		

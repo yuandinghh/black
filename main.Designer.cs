@@ -47,7 +47,7 @@ namespace black {
 			// timer1
 			// 
 			this.timer1.Enabled = true;
-			this.timer1.Interval = 600;
+			this.timer1.Interval = 60000;
 			this.timer1.Tick += new System.EventHandler(this.Timer1_Tick);
 			// 
 			// label3
@@ -55,7 +55,7 @@ namespace black {
 			this.label3.BackColor = System.Drawing.SystemColors.ButtonFace;
 			this.label3.Font = new System.Drawing.Font("宋体", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.label3.ForeColor = System.Drawing.Color.DarkRed;
-			this.label3.Location = new System.Drawing.Point(1, 4);
+			this.label3.Location = new System.Drawing.Point(3, 9);
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(48, 26);
 			this.label3.TabIndex = 16;
@@ -67,7 +67,7 @@ namespace black {
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
 			this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
 			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-			this.ClientSize = new System.Drawing.Size(142, 77);
+			this.ClientSize = new System.Drawing.Size(140, 76);
 			this.ControlBox = false;
 			this.Controls.Add(this.label3);
 			this.Controls.Add(this.label5);
